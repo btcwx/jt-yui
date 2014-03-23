@@ -1,0 +1,36 @@
+{
+  "name": "jt-yui",
+  "version": "0.0.1",
+  "description": "yuicompressor for jt-cli",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "yui",
+    "yuicompressor",
+    "jt-yui"
+  ],
+  "config": {
+    "blanket": {
+      "pattern": "jt-yui/lib"
+    }
+  },
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyicwx/jt-less.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "through2": "~0.4.1",
+    "yuicompressor": "~2.4.8"
+  }
+}
